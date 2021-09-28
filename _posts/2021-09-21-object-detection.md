@@ -105,15 +105,11 @@ operations that do not include any learnable weights. Common examples
 for those are activation functions such as 
 
 $$
-  \text{sigmoid} \left( x \right) = \frac{1}{1 + e^{-x}} \\\\
-$$
-
-$$
-  \text{tanh} \left( x \right) = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}} \\\\
-$$
-
-$$
-  \text{ReLU} \left( x \right) = \text{max}(0, x)
+\begin{aligned}
+  \text{sigmoid} \left( x \right) &= \frac{1}{1 + e^{-x}} \\
+  \text{tanh} \left( x \right) &= \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}} \\
+  \text{ReLU} \left( x \right) &= \text{max}(0, x)
+\end{aligned}
 $$ 
 
 which are
@@ -276,8 +272,10 @@ averaged afterward. The values for precision and recall can be computed
 as follows: 
 
 $$
-  \text{Precision} = \frac{\text{TP}}{\text{TP + FP}} \\
-  \text{Recall} = \frac{\text{TP}}{\text{TP + FN}}  ,
+\begin{aligned}
+  \text{Precision} &= \frac{\text{TP}}{\text{TP + FP}} \\
+  \text{Recall} &= \frac{\text{TP}}{\text{TP + FN}}  ,
+\end{aligned}
 $$
 
 where TP is the number of true positives, while FP and FN are the
