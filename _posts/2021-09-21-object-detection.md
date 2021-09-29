@@ -620,9 +620,9 @@ Training" in <d-cite key="faster-rcnn"></d-cite>.
 
 <img class="img-fluid rounded z-depth-0" src="{{ site.baseurl }}/{{ page.assets }}/yolo-model.pdf.png-1.png" data-zoomable>
 <div class="caption">
-YOLO divides the input image into a grid of $$S\times S$$ patches. Each
-grid cell then predicts $$B$$ bounding boxes, confidences for the boxes,
-and $$C$$ class probabilities. Source: <d-cite key="yolo"></d-cite>.
+YOLO divides the input image into a grid of $S\times S$ patches. Each
+grid cell then predicts $B$ bounding boxes, confidences for the boxes,
+and $C$ class probabilities. Source: <d-cite key="yolo"></d-cite>.
 </div>
 
 The most prominent and also first one-stage object detector was YOLOv1,
