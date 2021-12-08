@@ -17,7 +17,8 @@ layout: default
       {% if page.profile.image %}
         {% responsive_image_block %}
           path: {{ page.profile.image | prepend: 'assets/img/' }}
-          class: "img-fluid z-depth-1 rounded"
+          class: "img-fluid z-depth-1"
+          style: "border-radius:50%;"
           alt: {{ page.profile.image }}
         {% endresponsive_image_block %}
       {% endif %}
