@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-10-21 00:00:00-0000
+date: 2022-01-27 00:00:00-0000
 inline: true
 ---
 
-Our paper *Elevating Perceptual Sample Quality in Probabilistic Circuits through Differentiable Sampling* has been accepted for the [NeurIPS 2021 Workshop on Pre-registration in Machine Learning](https://preregister.science/)!
+Our paper *CLEVA-Compass: A Continual Learning EValuation Assessment Compass to Promote Research Transparency and Comparability* got accepted at ICLR 2022!
