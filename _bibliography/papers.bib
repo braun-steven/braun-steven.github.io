@@ -2,48 +2,68 @@
 Note: The entries have to be sorted by year in this file (latest first) since this is how the parser sorts the output as well for the "Selected Publications.".
 ---
 
-@string{aps = {American Physical Society,}}
+@inproceedings{trapp2022towards,
+  title={Towards Coreset Learning in Probabilistic Circuits},
+  author={Martin Trapp and Steven Lang and Aastha Shah and Martin Mundt and Kristian Kersting and Arno Solin},
+  booktitle={The 5th Workshop on Tractable Probabilistic Modeling (UAI)},
+  year={2022},
+  pdf={https://openreview.net/pdf?id=bt2cS60SxSP},
+  preview={trapp2022towards.png},
+  bibtex_show={true},
+  abbr={TPM},
+  selected={true},
+}
+
 
 @InProceedings{mundt2021clevacompass,
       title={CLEVA-Compass: A Continual Learning EValuation Assessment Compass to Promote Research Transparency and Comparability},
       author={Martin Mundt and Steven Lang and Quentin Delfosse and Kristian Kersting},
       year={2022},
-      pdf={https://arxiv.org/pdf/2110.03331.pdf},
+      pdf={https://openreview.net/pdf?id=rHMaBYbkkRJ},
       code={https://github.com/ml-research/CLEVA-Compass},
       selected={true},
       abbr={ICLR},
       bibtex_show={true},
       booktitle={International Conference on Learning Representations (ICLR)},
+      preview={mundt2021clevacompass.png}
 
 }
 
-@unpublished{lang2021elevating,
-      title={Elevating Perceptual Sample Quality in Probabilistic Circuits through Differentiable Sampling},
-      author={Steven Lang and Martin Mundt and Fabrizio Ventola and Robert Peharz and Kristian Kersting },
-      year={2021},
-      pdf={https://preregister.science/papers_21neurips/10_paper.pdf},
+@inproceedings{lang2022diff-sampling-spns,
       poster={https://preregister.science/posters_21neurips/10_poster.png},
       slides={https://youtu.be/8aTnMHtTIRc},
       selected={true},
       abbr={NeurIPS},
-      booktitle={Conference on Neural Information Processing Systems (NeurIPS) Pre-registration Workshop},
       bibtex_show={true},
-
+  title = {Elevating Perceptual Sample Quality in Probabilistic Circuits through Differentiable Sampling},
+  author = {Steven Lang and Martin Mundt and Fabrizio Ventola and Robert Peharz and Kristian Kersting},
+  booktitle = {PMLR Volume for the Preregistration Workshop on Machine Learning (NeurIPS)},
+  Keywords = {Probabilistic Circuits, Sum-Product Networks, Differentiable Sampling, Deep Learning},
+  year = {2021},
+  volume =  {181},
+  series =  {Proceedings of Machine Learning Research},
+  pages = {193--220},
+  publisher =  {PMLR},
+  preview={lang2022diff-sampling-spns.png},
+  pdf={https://www.aiml.informatik.tu-darmstadt.de/papers/lang2022diff-sampling-spns.pdf}
 }
 
 
-@misc{lang2021dafne,
+
+@article{lang2021dafne,
       title={DAFNe: A One-Stage Anchor-Free Deep Model for Oriented Object Detection},
       author={Steven Lang and Fabrizio Ventola and Kristian Kersting},
       year={2021},
       eprint={2109.06148},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      pdf={https://arxiv.org/pdf/2109.06148.pdf},
       code={https://github.com/steven-lang/DAFNe},
       bibtex_show={true},
       selected={true},
       abbr={arXiv},
+      preview={lang2021dafne.jpg},
+      journal={arXiv prepreint, arXiv:2109.06148},
+      arxiv={2109.06148}
 }
 
 
@@ -65,6 +85,7 @@ Note: The entries have to be sorted by year in this file (latest first) since th
     abbr = {ICML},
     selected={true},
     bibtex_show={true},
+    preview={pmlr-v119-peharz20a.png}
 }
 
 
@@ -82,14 +103,6 @@ Note: The entries have to be sorted by year in this file (latest first) since th
     code = "https://github.com/Waikato/wekaDeeplearning4j",
     publisher={Elsevier},
     bibtex_show={true},
-    abbr={KBS}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+    abbr={KBS},
+    preview={lang2019wekadeeplearning4j.jpg}
 }
