@@ -226,7 +226,7 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Lang
+  last_name: [Lang]
   first_name: [Steven, S.]
 
   style: apa
