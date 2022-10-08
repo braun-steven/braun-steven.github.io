@@ -50,12 +50,12 @@ _styles: >
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 95%;
   }
 
 ---
 
-<img class="img-fluid rounded z-depth-2 center normal mb-5" src="{{ site.baseurl }}/{{ page.assets }}/yabai-screenshot.png" data-zoomable>
+<img class="img-fluid rounded z-depth-2 center normal mb-4" src="{{ site.baseurl }}/{{ page.assets }}/yabai-screenshot.png" data-zoomable>
 
 After using Linux for almost a decade, I've finally gotten annoyed at all the little hiccups and issues that arrive from time to time when working in Linux. ArchLinux has taught me more than anything else about the Linux world, its bleeding edge character, and the issues that come along with it. This has brought me to Fedora Linux about two years ago. While more stable in general, even Fedora has its sharp edges here and there. I've experienced issues with Bluetooth, audio sinks and sources, printers, and more on a daily to weekly basis. After having less and less available time due to my research, constantly tinkering with my system was no longer an option. Therefore, I've decided to finally ditch Linux and give macOS a try. 
 
@@ -79,8 +79,7 @@ If you prefer [iTerm2](https://iterm2.com) over kitty, we can quickly start a ne
 ```sh
 cmd - return : osascript -e "tell application \"iTerm2\" to set newSession to create window with default profile end tell"
 ```
-
-<video class="video pt-3 pb-3" controls>
+<video class="video mt-4 mb-4 z-depth-2" controls>
   <source src="{{ site.baseurl }}/{{ page.assets }}/open-terminal.mp4" type="video/mp4">
 </video>
 
@@ -92,7 +91,7 @@ To quickly close windows, I map `cmd - q` to the specific yabai command:
 cmd - q : yabai -m window --close
 ```
 
-<video class="video pt-3 pb-3" controls>
+<video class="video mt-4 mb-4 z-depth-2" controls>
   <source src="{{ site.baseurl }}/{{ page.assets }}/close-window.mp4" type="video/mp4">
 </video>
 
@@ -107,7 +106,7 @@ cmd - k : yabai -m window --focus north
 cmd - l : yabai -m window --focus east
 ```
 
-<video class="video pt-3 pb-3" controls>
+<video class="video mt-4 mb-4 z-depth-2" controls>
   <source src="{{ site.baseurl }}/{{ page.assets }}/focus-window.mp4" type="video/mp4">
 </video>
 
@@ -136,7 +135,7 @@ cmd + shift - j : yabai -m window --warp south
 cmd + shift - k : yabai -m window --warp north
 ```
 
-<video class="video pt-3 pb-3" controls>
+<video class="video mt-4 mb-4 z-depth-2" controls>
   <source src="{{ site.baseurl }}/{{ page.assets }}/move-window.mp4" type="video/mp4">
 </video>
 
@@ -171,7 +170,7 @@ cmd - 8 : yabai -m space --focus 8 || yabai -m space --focus recent
 cmd - 9 : yabai -m space --focus 9 || yabai -m space --focus recent
 ```
 
-<video class="video pt-3 pb-3" controls>
+<video class="video mt-4 mb-4 z-depth-2" controls>
   <source src="{{ site.baseurl }}/{{ page.assets }}/focus-space.mp4" type="video/mp4">
 </video>
 
@@ -188,7 +187,7 @@ cmd + shift - 8 : yabai -m window --space 8
 cmd + shift - 9 : yabai -m window --space 9
 ```
 
-<video class="video pt-3 pb-3" controls>
+<video class="video mt-4 mb-4 z-depth-2" controls>
   <source src="{{ site.baseurl }}/{{ page.assets }}/move-window-to-space.mp4" type="video/mp4">
 </video>
 
@@ -218,7 +217,7 @@ yabai -m rule --add title="^Digital Colour Meter$" manage=off
 yabai -m rule --add title="^General.*" manage=off
 ```
 
-<video class="video pt-3 pb-3" controls>
+<video class="video mt-4 mb-4 z-depth-2" controls>
   <source src="{{ site.baseurl }}/{{ page.assets }}/floating-window.mp4" type="video/mp4">
 </video>
 
