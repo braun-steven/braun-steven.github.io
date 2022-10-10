@@ -63,7 +63,7 @@ My Linux workflow was mainly keyboard-driven, using i3wm as a tiling window mana
 
 ## Yabai and skhd to the Rescue!
 
-After fiddling around for a few days, I've settled with a setup that works really well for me: [yabai](https://github.com/koekeishiya/yabai) as a tiling window manager and [skhd](https://github.com/koekeishiya/skhd) to define keyboard shortcuts that perform `yabai` (and some other) commands, replicating most of the functionality that is available in i3wm. In the following, I will go through my yabai and skhd setup and explain how it can replicate the classic i3wm behavior. When giving examples for yabai and skhd commands and configs, these usually go into their respective configuration files at `~/.config/yabai/yabairc` and `~/.config/yabai/yabairc`.
+After fiddling around for a few days, I've settled with a setup that works really well for me: [yabai](https://github.com/koekeishiya/yabai) as a tiling window manager and [skhd](https://github.com/koekeishiya/skhd) to define keyboard shortcuts that perform `yabai` (and some other) commands, replicating most of the functionality that is available in i3wm. In the following, I will go through my yabai and skhd setup and explain how it can replicate the classic i3wm behavior. When giving examples for yabai and skhd commands and configs, these usually go into their respective configuration files at `~/.config/yabai/yabairc` and `~/.config/skhd/skhdrc`.
 
 ### Open Terminal
 
