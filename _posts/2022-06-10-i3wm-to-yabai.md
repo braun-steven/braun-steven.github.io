@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tiling macOS: Moving from i3wm to Yabai"
-description: This post is going to give a brief introduction to deep models, the history of object detection ranging from classic methods based on hand-crafted features to the latest deep learning object detectors, object detection datasets, and object detection evaluation metrics.
+description: A short summary on how one can replace the typical Linux i3wm experience on macOS with yabai and skhd.
 
 date: 2022-10-06
 assets: assets/posts/2022-10-06-i3wm-to-yabai
