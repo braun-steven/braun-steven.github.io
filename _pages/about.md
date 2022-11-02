@@ -24,3 +24,7 @@ I’m a PhD student at the  [Artificial Intelligence and Machine Learning Lab](h
 If you are a motivated student looking for a thesis topic and are interested in the subjects mentioned above, feel free to contact me.
 
 **Contact**: steven (dot) lang (at) cs (dot) tu-darmstadt (dot) de
+
+<!-- Mastodon meta data link -->
+<link rel="me" href="https://fediscience.org/@slang" />
+
