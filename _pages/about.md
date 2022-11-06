@@ -26,5 +26,5 @@ If you are a motivated student looking for a thesis topic and are interested in 
 **Contact**: steven (dot) lang (at) cs (dot) tu-darmstadt (dot) de
 
 <!-- Mastodon meta data link -->
-<link rel="me" href="https://fediscience.org/@slang" />
+<link rel="me" href="https://sigmoid.social/@sbraun">
 
