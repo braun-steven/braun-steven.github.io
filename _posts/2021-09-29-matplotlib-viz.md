@@ -5,6 +5,7 @@ description: In this post we will see few tricks to polish matplotlib figures, m
 
 date: 2021-10-27
 assets: assets/posts/2021-09-29-matplotlib-viz
+img: assets/posts/2021-09-29-matplotlib-viz/featured.png
 
 authors:
   - name: Steven Lang

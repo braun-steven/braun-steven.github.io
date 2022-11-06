@@ -4,6 +4,7 @@ title: "The arXiv PDF Command-Line Interface Downloader"
 date: 2021-07-12 00:00:00
 description: In this post, I introduce arxiv-downloader, a command-line interface for conveniently downloading papers from arXiv.
 assets: assets/posts/2021-08-02-arxiv-downloader
+img: assets/posts/2021-08-02-arxiv-downloader/header.png
 ---
 
 <img class="img-fluid rounded z-depth-1" src="{{ site.baseurl }}/{{ page.assets }}/header.png" data-zoomable>

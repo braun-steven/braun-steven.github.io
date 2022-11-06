@@ -5,6 +5,7 @@ description: A short summary on how one can replace the typical Linux i3wm exper
 
 date: 2022-10-06
 assets: assets/posts/2022-10-06-i3wm-to-yabai
+img: assets/posts/2022-10-06-i3wm-to-yabai/yabai-screenshot.png
 
 authors:
   - name: Steven Lang

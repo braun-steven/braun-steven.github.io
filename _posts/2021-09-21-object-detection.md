@@ -5,6 +5,7 @@ description: This post is going to give a brief introduction to deep models, the
 
 date: 2021-09-21
 assets: assets/posts/2021-09-21-object-detection
+img: assets/posts/2021-09-21-object-detection/iou.png
 
 authors:
   - name: Steven Lang
