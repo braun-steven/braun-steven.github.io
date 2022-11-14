@@ -8,7 +8,7 @@ assets: assets/posts/2021-09-21-object-detection
 img: assets/posts/2021-09-21-object-detection/iou.png
 
 authors:
-  - name: Steven Lang
+  - name: Steven Braun
     affiliations:
       name: TU Darmstadt
 

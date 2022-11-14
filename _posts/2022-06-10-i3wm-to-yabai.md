@@ -8,7 +8,7 @@ assets: assets/posts/2022-10-06-i3wm-to-yabai
 img: assets/posts/2022-10-06-i3wm-to-yabai/yabai-screenshot.png
 
 authors:
-  - name: Steven Lang
+  - name: Steven Braun
     affiliations:
       name: TU Darmstadt
 

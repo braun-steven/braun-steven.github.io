@@ -8,7 +8,7 @@ assets: assets/posts/2021-09-29-matplotlib-viz
 img: assets/posts/2021-09-29-matplotlib-viz/featured.png
 
 authors:
-  - name: Steven Lang
+  - name: Steven Braun
     affiliations:
       name: TU Darmstadt
       
