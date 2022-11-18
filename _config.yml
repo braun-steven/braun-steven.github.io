@@ -61,6 +61,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: braun-steven # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: sbraunmz # your Twitter handle
+mastodon_username: sigmoid.social/@sbraun # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: # your LinkedIn user name
 scholar_userid: sja9tq0AAAAJ&hl # your Google Scholar ID
 semanticscholar_id: 1382818658 # your Semantic Scholar ID
@@ -85,8 +86,6 @@ unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
 discord_id: # your discord id (18-digit unique numerical identifier)
-# Custom
-mastodon_user_site: https://sigmoid.social/@sbraun # your Mastodon site
 
 contact_note:
   # You can even add a little note about which of these is the best way to reach you.
@@ -177,7 +176,7 @@ plugins:
   - jekyll-paginate-v2
   - jekyll/scholar
   - jekyll-sitemap
-  - jekyll-target-blank
+  - jekyll-link-attributes
   - jekyll-twitter-plugin
   - jemoji
 
@@ -250,6 +249,18 @@ filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, select
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit:  # leave blank to always show all authors
 more_authors_animation_delay: 0  # more authors are revealed on click using animation; smaller delay means faster animation
+
+
+# -----------------------------------------------------------------------------
+# Jekyll Link Attributes 
+# -----------------------------------------------------------------------------
+
+# These are the defaults
+external_links:
+  enabled: true
+  rel: external nofollow noopener
+  target: _blank
+  exclude:
 
 
 # -----------------------------------------------------------------------------
