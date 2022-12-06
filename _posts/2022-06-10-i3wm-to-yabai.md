@@ -224,6 +224,6 @@ yabai -m rule --add title="^General.*" manage=off
 
 ## Additional Resources
 
-My dotfiles are available [here](https://github.com/steven-lang/dotfiles), including my old [i3wm config](https://github.com/steven-lang/dotfiles/blob/master/configs/i3/.config/i3/config), my new [yabai config](https://github.com/steven-lang/dotfiles/blob/master/configs/yabai/.config/yabai/yabairc), and the [skhd config](https://github.com/steven-lang/dotfiles/blob/master/configs/skhd/.config/skhd/skhdrc).
+My dotfiles are available [here](https://github.com/braun-steven/dotfiles), including my old [i3wm config](https://github.com/braun-steven/dotfiles/blob/master/configs/i3/.config/i3/config), my new [yabai config](https://github.com/braun-steven/dotfiles/blob/master/configs/yabai/.config/yabai/yabairc), and the [skhd config](https://github.com/braun-steven/dotfiles/blob/master/configs/skhd/.config/skhd/skhdrc).
 
 The yabai GitHub repository also hosts a great [Wiki](https://github.com/koekeishiya/yabai/wiki) that covers everything from installation to configuration. 

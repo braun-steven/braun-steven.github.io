@@ -19,7 +19,7 @@ Many of the papers I find are hosted on [arXiv.org](https://arxiv.org/). When I'
 $ mv 2107.00630.pdf ~/papers/generative-models/2107.00630v1.Variational_Diffusion_Models.pdf
 ```
 
-Now the paper is ready to be automatically synced and I can find it on my tablet device. After repeating the above multiple times, I was especially annoyed by the file renaming necessity. Furthermore, it also happens that I often simply have the arXiv link and know that I want to have this paper on my tablet. I'm an avid Linux user and work from the terminal most of the time. Hence, it was natural to write a command-line tool that takes an arXiv link/id, downloads it into a preferred directory, and automatically renames the filename according to the title.  This is when I came up with a simple tool called [arxiv-downloader](https://github.com/steven-lang/arxiv-downloader), wrapping the neat arXiv Python wrapper [lukasschwab/arxiv.py](https://github.com/lukasschwab/arxiv.py).
+Now the paper is ready to be automatically synced and I can find it on my tablet device. After repeating the above multiple times, I was especially annoyed by the file renaming necessity. Furthermore, it also happens that I often simply have the arXiv link and know that I want to have this paper on my tablet. I'm an avid Linux user and work from the terminal most of the time. Hence, it was natural to write a command-line tool that takes an arXiv link/id, downloads it into a preferred directory, and automatically renames the filename according to the title.  This is when I came up with a simple tool called [arxiv-downloader](https://github.com/braun-steven/arxiv-downloader), wrapping the neat arXiv Python wrapper [lukasschwab/arxiv.py](https://github.com/lukasschwab/arxiv.py).
 
 # The Solution: arxiv-downloader
 
@@ -55,4 +55,4 @@ optional arguments:
 ```
 
 
-The source code is available at [steven-lang/arxiv-downloader](https://github.com/steven-lang/arxiv-downloader). Feel free to contribute, leave feedback, and report issues.
+The source code is available at [braun-steven/arxiv-downloader](https://github.com/braun-steven/arxiv-downloader). Feel free to contribute, leave feedback, and report issues.
