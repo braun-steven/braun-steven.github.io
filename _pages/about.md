@@ -26,3 +26,5 @@ If you are a motivated student looking for a thesis topic and are interested in 
 Note: Until 2022 known as Steven Lang.
 
 **Contact**: steven (dot) lang (at) cs (dot) tu-darmstadt (dot) de
+
+<link rel="me" href="https://fosstodon.org/@sbraun" />
