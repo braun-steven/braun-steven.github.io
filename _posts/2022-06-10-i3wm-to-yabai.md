@@ -6,7 +6,7 @@ giscus_comments: true
 
 date: 2022-10-06
 assets: assets/posts/2022-10-06-i3wm-to-yabai
-<!-- img: assets/posts/2022-10-06-i3wm-to-yabai/yabai-screenshot.png -->
+img: assets/posts/2022-10-06-i3wm-to-yabai/yabai-screenshot.png
 
 categories: sample-posts external-services
 
