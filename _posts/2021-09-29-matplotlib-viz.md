@@ -2,6 +2,7 @@
 layout: post
 title: "Optimizing Matplotlib Visualizations for Academic Papers"
 description: In this post we will see few tricks to polish matplotlib figures, making them ready for inclusion in academic papers, i.e. LaTeX generated documents.
+giscus_comments: true
 
 date: 2021-10-27
 assets: assets/posts/2021-09-29-matplotlib-viz

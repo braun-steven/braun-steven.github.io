@@ -2,6 +2,7 @@
 layout: distill
 title: "A Short Review of Axis-Aligned and Oriented Object Detection"
 description: This post is going to give a brief introduction to deep models, the history of object detection ranging from classic methods based on hand-crafted features to the latest deep learning object detectors, object detection datasets, and object detection evaluation metrics.
+giscus_comments: true
 
 date: 2021-09-21
 assets: assets/posts/2021-09-21-object-detection

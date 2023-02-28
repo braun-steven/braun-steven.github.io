@@ -2,10 +2,13 @@
 layout: post
 title: "Tiling macOS: Moving from i3wm to Yabai"
 description: A short summary on how one can replace the typical Linux i3wm experience on macOS with yabai and skhd.
+giscus_comments: true
 
 date: 2022-10-06
 assets: assets/posts/2022-10-06-i3wm-to-yabai
-img: assets/posts/2022-10-06-i3wm-to-yabai/yabai-screenshot.png
+<!-- img: assets/posts/2022-10-06-i3wm-to-yabai/yabai-screenshot.png -->
+
+categories: sample-posts external-services
 
 authors:
   - name: Steven Braun
