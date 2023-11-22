@@ -107,8 +107,6 @@ wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.
 contact_note:
   # You can even add a little note about which of these is the best way to reach you.
 
-rss_icon: false
-
 google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics:  # cronitor RUM analytics site ID (format: XXXXXXXXX)
 
