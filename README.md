@@ -32,6 +32,7 @@ Feel free to add your own page(s) by sending a PR.
 <tr>
 <td>Academics</td>
 <td>
+<a href="https://martinbulla.github.io" target="_blank">★</a>  
 <a href="https://maruan.alshedivat.com" target="_blank">★</a>
 <a href="https://www.cs.columbia.edu/~chen1ru/" target="_blank">★</a>
 <a href="https://maithraraghu.com" target="_blank">★</a>
@@ -93,6 +94,38 @@ Feel free to add your own page(s) by sending a PR.
 <a href="https://bashirkazimi.github.io/" target="_blank">★</a>
 <a href="https://dohaison.github.io/" target="_blank">★</a>
 <a href="https://raphaaal.github.io/" target="_blank">★</a>
+<a href="https://varuniyer.info/" target="_blank">★</a>
+<a href="https://yukimasano.github.io/" target="_blank">★</a>
+<a href="https://hashe037.github.io/" target="_blank">★</a>
+<a href="https://wang-boyu.github.io/" target="_blank">★</a>
+<a href="https://qingqingchen.info" target="_blank">★</a>
+<a href="https://bajinsheng.github.io/" target="_blank">★</a>
+<a href="https://www.silviofanzon.com/" target="_blank">★</a>
+<a href="https://kaikaiyao.github.io/" target="_blank">★</a>
+<a href="https://alchemz.github.io/" target="_blank">★</a>
+<a href="https://samadamday.com/" target="_blank">★</a>
+<a href="https://fanpu.io/" target="_blank">★</a>
+<a href="https://abigalekim.github.io/" target="_blank">★</a>
+<a href="https://lucasresck.github.io/" target="_blank">★</a>
+<a href="https://users.wpi.edu/~lfichera/" target="_blank">★</a>
+<a href="https://anmspro.github.io/" target="_blank">★</a>
+<a href="https://berlyne.net/" target="_blank">★</a>
+<a href="https://filippomazzoli.github.io/" target="_blank">★</a>
+<a href="https://www.escontrela.me/" target="_blank">★</a>
+<a href="https://raffaem.github.io/" target="_blank">★</a>
+<a href="https://cbueth.de/" target="_blank">★</a>
+<a href="https://kyleaoman.github.io/" target="_blank">★</a>
+<a href="https://decwest.github.io/" target="_blank">★</a>
+<a href="https://www.jedburkat.com" target="_blank">★</a>
+<a href="https://hrzhang.me" target="_blank">★</a>
+<a href="https://kudhru.github.io/" target="_blank">★</a>
+<a href="https://mbarbetti.github.io/" target="_blank">★</a>
+<a href="https://www.zhivotenko.com/" target="_blank">★</a>
+<a href="https://giordanodaloisio.github.io/" target="_blank">★</a>
+<a href="https://aadityaura.github.io/" target="_blank">★</a>
+<a href="https://abhinav-mehta.github.io/" target="_blank">★</a>
+<a href="https://shubhashisroydipta.com/" target="_blank">★</a>
+<a href="https://astanziola.github.io" target="_blank">★</a>
 </td>
 </tr>
 <tr>
@@ -198,12 +231,13 @@ You need to take the following steps to get `al-folio` up and running in your lo
 - Finally, run the following command that will pull a pre-built image from DockerHub and will run your website.
 
 ```bash
-$ docker-compose up
+$ docker compose pull
+$ docker compose up
 ```
 
 Note that when you run it for the first time, it will download a docker image of size 400MB or so. 
 
-Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker-compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.
+Now, feel free to customize the theme however you like (don't forget to change the name!). After you are done, you can use the same command (`docker compose up`) to render the webpage with all you changes. Also, make sure to commit your final changes.
 
 > To change port number, you can edit `docker-compose.yml` file.
 
@@ -214,7 +248,7 @@ Now, feel free to customize the theme however you like (don't forget to change t
 Build and run a new docker image using:
 
 ```bash
-$ docker-compose -f docker-local.yml up
+$ docker compose up --build
 ```
 
 > If you want to update jekyll, install new ruby packages, etc., all you have to do is build the image again using `--force-recreate` argument at the end of previous command! It will download ruby and jekyll and install all ruby packages again from scratch.
