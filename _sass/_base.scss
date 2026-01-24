@@ -352,7 +352,11 @@ blockquote {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem;
+
+    a {
+      margin: 0 0.25rem;  // Left/right spacing
+    }
 
     a {
       i::before {
