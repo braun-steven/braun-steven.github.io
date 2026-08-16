@@ -1,6 +1,36 @@
 ---
 Note: The entries have to be sorted by year in this file (latest first) since this is how the parser sorts the output as well for the "Selected Publications.".
 ---
+@phdthesis{braun2026dissertation,
+      title={Bridging Probabilistic Circuits and Deep Neural Networks},
+      author={Braun, Steven},
+      year={2026},
+      month={feb},
+      school={Technische Universität Darmstadt},
+      address={Darmstadt},
+      note={Ph.D. Thesis, Primary publication},
+      doi={10.26083/tuda-7775},
+      url={https://tuprints.ulb.tu-darmstadt.de/handle/tuda/15123},
+      website={https://tuprints.ulb.tu-darmstadt.de/handle/tuda/15123},
+      urn={urn:nbn:de:tuda-tuda-151233},
+      pdf={https://tuprints.ulb.tu-darmstadt.de/bitstreams/1c4d661a-2870-4d27-9c2f-bfde36997754/download},
+      keywords={machine learning, probabilistic circuits, sum-product networks,
+                deep neural networks, tractable probabilistic models,
+                probabilistic inference, uncertainty estimation,
+                representation learning, hybrid models, density estimation,
+                generative models, artificial intelligence},
+      language={English},
+      selected={true},
+      bibtex_show={true},
+      abstract={Deep neural networks (DNNs) have achieved remarkable success in learning complex functions from data, yet they often lack the principled probabilistic reasoning and tractability of models like probabilistic circuits (PCs). This creates a fundamental dichotomy in modern machine learning, putting the expressiveness and scalability of DNNs against the inference flexibility and probabilistic benefits of PCs. This dissertation aims to bridge this divide through a two-sided research agenda: first, by advancing the capabilities of PCs through the integration of deep learning principles, and second, by leveraging probabilistic models as components within the broader deep learning ecosystem to create more robust and capable hybrid systems.
+
+To address the limitations of PCs, we first introduce einsum networks, a tensorized framework that reformulates circuit computations to enable scalable, hardware-accelerated training, yielding orders-of-magnitude speedups. We then develop a differentiable sampling procedure that enables the use of arbitrary, sample-based training objectives, moving PCs beyond traditional maximum likelihood estimation. Finally, we propose tractable dropout inference (TDI), a novel, closed-form method to quantify epistemic uncertainty in a single forward pass, enabling PCs to reliably detect out-of-distribution data.
+
+Building on these advancements, we shift focus from enhancing PCs to leveraging them in collaboration with DNNs. We introduce autoencoding probabilistic circuits (APCs), a hybrid architecture that pairs a tractable PC encoder with a neural decoder. By modeling the joint data-embedding distribution, APCs achieve principled representation learning and are uniquely robust to missing data through exact marginalization. Extending this approach beyond hybrid architectures, we reframe knowledge distillation from a probabilistic viewpoint, leading to contrastive abductive knowledge extraction (CAKE), a fully data-free and model-agnostic procedure for deep classifier mimicry.
+
+Collectively, these contributions demonstrate that PCs and DNNs are not mutually exclusive paradigms but rather complementary approaches that can be combined to create more capable and robust models. This work provides a computational and conceptual contribution for developing hybrid systems that unite the representational power of deep learning with the rigorous, tractable inference of probabilistic models, paving the way for more robust, flexible, and reliable artificial intelligence.}
+  }
+
 @article{braun2025apcs,
       preview={braun2025apc.png},
       title={Tractable Representation Learning with Probabilistic Circuits},
