@@ -7,8 +7,6 @@ aliases: [/blog/2021/object-detection/]
 description: This post is going to give a brief introduction to deep models, the history of object detection ranging from classic methods based on hand-crafted features to the latest deep learning object detectors, object detection datasets, and object detection evaluation metrics.
 images:
 - iou.png
-math: true
-authors: [Steven Braun]
 ---
 This post is going to give a brief introduction to deep
 models, the history of object detection ranging from classic methods

@@ -7,7 +7,6 @@ aliases: [/blog/2024/emacs-org-mode-emphasize-dwim/]
 description: Add org-emphasize-dwim which wraps org-emphasize and either applies it to the region or to word at pointer.
 images:
 - org-mode-unicorn.svg
-authors: [Steven Braun]
 ---
 <img src="org-mode-unicorn.svg"> 
 
