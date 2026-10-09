@@ -1,4 +1,4 @@
-# Repository Guidelines
+# CLAUDE.md
 
 Hugo site using the Hextra theme (git submodule in `themes/hextra`, pinned to a release tag; never edit it — override files under `layouts/` and `assets/` instead). Overrides: `layouts/_partials/custom/head-end.html` (extra `<head>` tags), `layouts/robots.txt` (adds the sitemap line), `i18n/en.yaml` (footer copyright).
 
