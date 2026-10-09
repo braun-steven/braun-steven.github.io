@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.steven-braun.com/sitemap.xml
+Sitemap: https://stevenbraun.dev/sitemap.xml
