@@ -1,7 +1,9 @@
 ---
 title: Blog
-# Old al-folio archive pages
-aliases: [/blog/2021/, /blog/2022/, /blog/2024/, /news/]
+# No HTML list page: posts are listed on the home page. Keep the RSS feed.
+outputs: [rss]
+sitemap:
+  disable: true
 cascade:
   - target:
       kind: page

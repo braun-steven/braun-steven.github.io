@@ -24,43 +24,16 @@ enableRobotsTXT = true
       block = [["$$", "$$"], ["\\[", "\\]"]]
       inline = [["\\(", "\\)"]]
 
-[menus]
-  [[menus.main]]
-    name = "Blog"
-    pageRef = "/blog"
-    weight = 1
-  [[menus.main]]
-    name = "Publications"
-    pageRef = "/publications"
-    weight = 2
-  [[menus.main]]
-    name = "Search"
-    weight = 3
-    [menus.main.params]
-      type = "search"
-  [[menus.main]]
-    name = "GitHub"
-    url = "https://github.com/braun-steven"
-    weight = 4
-    [menus.main.params]
-      icon = "github"
-
 [params]
   description = "PhD in Machine Learning from TU Darmstadt (AIML Lab)"
   dateFormat = "January 2, 2006"
   externalLinkDecoration = false
-
-  [params.navbar]
-    displayTitle = true
-    displayLogo = false
-    width = "normal"
 
   [params.page]
     width = "normal"
 
   [params.theme]
     default = "system"
-    displayToggle = true
 
   [params.footer]
     enable = false
@@ -69,14 +42,8 @@ enableRobotsTXT = true
     width = "normal"
 
   [params.search]
-    enable = true
-    type = "flexsearch"
-
-  [params.blog.list]
-    displayTags = true
-    sortBy = "date"
-    sortOrder = "desc"
-    pagerSize = 20
+    # No navbar, so nothing could open the search dialog
+    enable = false
 
   [params.blog.article]
     displayPagination = true
