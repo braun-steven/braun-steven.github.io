@@ -7,7 +7,6 @@ aliases: [/blog/2022/i3wm-to-yabai/]
 description: A short summary on how one can replace the typical Linux i3wm experience on macOS with yabai and skhd.
 images:
 - yabai-screenshot.png
-authors: [Steven Braun]
 ---
 <img src="yabai-screenshot.png">
 

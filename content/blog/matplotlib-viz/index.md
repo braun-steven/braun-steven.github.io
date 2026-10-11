@@ -7,8 +7,6 @@ aliases: [/blog/2021/matplotlib-viz/]
 description: In this post we will see few tricks to polish matplotlib figures, making them ready for inclusion in academic papers, i.e. LaTeX generated documents.
 images:
 - featured.png
-math: true
-authors: [Steven Braun]
 ---
 <img src="featured.png">
 

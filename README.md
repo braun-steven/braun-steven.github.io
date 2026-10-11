@@ -28,7 +28,6 @@ If the repo was cloned without submodules: `git submodule update --init`. To upd
 - **New post:** `hugo new content blog/<slug>` creates a page bundle `content/blog/<slug>/index.md` from `archetypes/blog/`; fill in `title`, `description`, put images next to `index.md` and reference them by file name (`<img src="header.png">`, `images: [header.png]`). Remove `draft: true` to publish.
 - **Math:** use `\( … \)` inline and `\[ … \]` for display math (rendered at build time with KaTeX).
 - **Comments:** giscus is on for every post (cascade in `content/blog/_index.md`); disable with `comments: false`. Threads are matched by URL path, so don't rename a published post's file or slug.
-- **Authors:** `authors: [Steven Braun]` shows the byline.
 - **New publication:** copy an existing `<div class="pub">` block in `content/publications.md` (and add to the home page list if selected). Add the BibTeX to `static/assets/bibliography/papers.bib`.
 
 ## Deployment
