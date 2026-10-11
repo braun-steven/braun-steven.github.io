@@ -32,7 +32,7 @@ If the repo was cloned without submodules: `git submodule update --init`. To upd
 
 ## Deployment
 
-Pushing to `master` runs `.github/workflows/deploy.yml`, which builds with Hugo and publishes `public/` to the `gh-pages` branch (GitHub Pages source: `gh-pages`).
+Pushing to `main` runs `.github/workflows/deploy.yml`, which builds with Hugo and publishes `public/` to the `gh-pages` branch (GitHub Pages source: `gh-pages`).
 
 ## License
 
