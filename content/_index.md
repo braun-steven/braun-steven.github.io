@@ -9,7 +9,8 @@ aliases: [/blog/, /blog/2021/, /blog/2022/, /blog/2024/, /news/, /publications/]
 
 I'm a research scientist working on deep neural networks and probabilistic models. I did my PhD in the [Artificial Intelligence and Machine Learning Lab](https://www.aiml.informatik.tu-darmstadt.de) at TU Darmstadt and focused on bridging probabilistic circuits and deep neural networks. Outside of research, I love writing software, tinkering with Linux, macOS, Emacs, and my self-hosting homelab. I also play badminton and co-lead the badminton department of my local sports club. 
 
-[GitHub](https://github.com/braun-steven) · [Google Scholar](https://scholar.google.com/citations?user=sja9tq0AAAAJ) · [ORCID](https://orcid.org/0000-0002-5627-8058) · [Mastodon](https://sigmoid.social/@sbraun) · [Twitter](https://twitter.com/sbraunmz)
+[GitHub](https://github.com/braun-steven) · [Google Scholar](https://scholar.google.com/citations?user=sja9tq0AAAAJ)
+<!-- · [ORCID](https://orcid.org/0000-0002-5627-8058) · [Mastodon](https://sigmoid.social/@sbraun) · [Twitter](https://twitter.com/sbraunmz) -->
 
 ## Blog
 

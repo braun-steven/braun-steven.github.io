@@ -1,5 +1,5 @@
 /* No navbar (layouts/_partials/navbar.html is empty) */
-:root { --hextra-navbar-height: 0px; }
+:root { --hextra-navbar-height: 0px; --hx-font-sans: Verdana, sans-serif; }
 .content .profile-pic {
   float: right;
   width: 160px;
@@ -18,4 +18,4 @@ figcaption { font-size: .9em; font-style: italic; }
 .caption { font-size: .9em; font-style: italic; margin-bottom: 1.5em; }
 .content .post-list { list-style: none; margin-left: 0; padding-left: 0; }
 .content .post-list li { margin: .3em 0; }
-.post-date { font-variant-numeric: tabular-nums; opacity: .6; margin-right: .6em; }
+.post-date { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-variant-numeric: tabular-nums; opacity: .6; margin-right: .6em; }
