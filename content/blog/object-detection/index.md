@@ -1,5 +1,5 @@
 ---
-title: A Short Review of Axis-Aligned and Oriented Object Detection
+title: A short review of axis-aligned and oriented object detection
 date: '2021-09-21'
 slug: object-detection
 # Old URL before switching to Hugo default permalinks

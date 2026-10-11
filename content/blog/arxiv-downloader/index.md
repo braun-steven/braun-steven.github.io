@@ -1,5 +1,5 @@
 ---
-title: The arXiv PDF Command-Line Interface Downloader
+title: An arXiv PDF command-line interface downloader
 date: '2021-07-12T00:00:00'
 slug: arxiv-downloader
 # Old URL before switching to Hugo default permalinks

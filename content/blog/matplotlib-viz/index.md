@@ -1,5 +1,5 @@
 ---
-title: Optimizing Matplotlib Visualizations for Academic Papers
+title: Optimizing matplotlib visualizations for scientific papers
 date: '2021-10-27'
 slug: matplotlib-viz
 # Old URL before switching to Hugo default permalinks

@@ -1,5 +1,5 @@
 ---
-title: 'Tiling macOS: Moving from i3wm to Yabai'
+title: 'Tiling macOS: Moving from i3wm to yabai'
 date: '2022-10-06'
 slug: i3wm-to-yabai
 # Old URL before switching to Hugo default permalinks

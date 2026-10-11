@@ -1,5 +1,5 @@
 ---
-title: 'Emacs Org Mode: org-emphasize-dwim'
+title: 'Emacs org-mode: org-emphasize-dwim'
 date: '2024-11-15'
 slug: emacs-org-mode-emphasize-dwim
 # Old URL before switching to Hugo default permalinks
