@@ -1,0 +1,98 @@
+baseURL = "https://www.steven-braun.com/"
+locale = "en-US"
+title = "Steven Braun"
+theme = "hextra"
+enableRobotsTXT = true
+
+# Hextra adds markdown/llms outputs by default; keep the site to plain HTML + RSS
+[outputs]
+  home = ["html"]
+  page = ["html"]
+  section = ["html", "rss"]
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    lineNos = false
+  [markup.goldmark.renderer]
+    # Posts contain raw HTML (figures, image grids)
+    unsafe = true
+  [markup.goldmark.extensions.passthrough]
+    enable = true
+    [markup.goldmark.extensions.passthrough.delimiters]
+      # Posts use $$..$$ (display) and \(..\) (inline); Hextra renders them server-side with KaTeX
+      block = [["$$", "$$"], ["\\[", "\\]"]]
+      inline = [["\\(", "\\)"]]
+
+[menus]
+  [[menus.main]]
+    name = "Blog"
+    pageRef = "/blog"
+    weight = 1
+  [[menus.main]]
+    name = "Publications"
+    pageRef = "/publications"
+    weight = 2
+  [[menus.main]]
+    name = "Search"
+    weight = 3
+    [menus.main.params]
+      type = "search"
+  [[menus.main]]
+    name = "GitHub"
+    url = "https://github.com/braun-steven"
+    weight = 4
+    [menus.main.params]
+      icon = "github"
+
+[params]
+  description = "PhD in Machine Learning from TU Darmstadt (AIML Lab)"
+  dateFormat = "January 2, 2006"
+  externalLinkDecoration = false
+
+  [params.navbar]
+    displayTitle = true
+    displayLogo = false
+    width = "normal"
+
+  [params.page]
+    width = "normal"
+
+  [params.theme]
+    default = "system"
+    displayToggle = true
+
+  [params.footer]
+    enable = false
+    displayCopyright = true
+    displayPoweredBy = false
+    width = "normal"
+
+  [params.search]
+    enable = true
+    type = "flexsearch"
+
+  [params.blog.list]
+    displayTags = true
+    sortBy = "date"
+    sortOrder = "desc"
+    pagerSize = 20
+
+  [params.blog.article]
+    displayPagination = true
+
+  [params.highlight.copy]
+    enable = true
+    display = "hover"
+
+  [params.social]
+    twitter = "sbraunmz"
+
+  [params.comments]
+    enable = false  # turned on for blog posts via the cascade in content/blog/_index.md
+    type = "giscus"
+    [params.comments.giscus]
+      repo = "braun-steven/braun-steven.github.io"
+      repoId = "R_kgDOGIe7LA"
+      category = "Comments"
+      categoryId = "DIC_kwDOGIe7LM4CUi45"
