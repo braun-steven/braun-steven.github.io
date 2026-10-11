@@ -1,4 +1,4 @@
-# www.steven-braun.com
+# stevenbraun.dev
 
 Personal homepage of Steven Braun, built with [Hugo](https://gohugo.io) and the [Hextra](https://github.com/imfing/hextra) theme.
 
