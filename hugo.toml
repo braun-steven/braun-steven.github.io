@@ -27,6 +27,8 @@ enableRobotsTXT = true
 
 [params]
   description = "PhD in Machine Learning from TU Darmstadt (AIML Lab)"
+  # Bump this when replacing the favicon files; it busts browser favicon caches.
+  faviconVersion = "1"
   dateFormat = "January 2, 2006"
   externalLinkDecoration = false
 

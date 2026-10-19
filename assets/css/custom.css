@@ -1,5 +1,8 @@
 /* No navbar (layouts/_partials/navbar.html is empty) */
 :root { --hextra-navbar-height: 0px; --hx-font-sans: Verdana, sans-serif; }
+/* A bit more breathing room above and below the content on every page.
+   Margins leave each layout's own padding intact. */
+#content { margin-top: 1rem; margin-bottom: 1rem; }
 .content .profile-pic {
   float: right;
   width: 160px;
