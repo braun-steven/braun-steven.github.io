@@ -8,7 +8,8 @@ description: Add org-emphasize-dwim which wraps org-emphasize and either applies
 images:
 - org-mode-unicorn.svg
 ---
-<img src="org-mode-unicorn.svg"> 
+<img class="img-right-25" src="org-mode-unicorn.svg" alt="org-mode unicorn">
+
 
 I use Emacs for programming, note-taking in org-mode, and scientific writing in LaTeX. Org-mode offers a simple function `(org-emphasize &optional CHAR)`, which inserts an emphasis at a point or region and prompts for `CHAR` when called interactively. When I write notes or documentation in org-mode, the usual application of `org-emphasize` is to apply markup such as bold, italic, code, or strikethrough to one or multiple words. Since I'm a previous vim user, I've converted to Emacs via the popular [Doom Emacs](https://github.com/doomemacs/doomemacs) configuration framework, which _emphasizes_ the vim concepts wherever it can. Therefore, my application of `org-emphasize` to regions usually involves first selecting a region with vim motions. In the case of a single word, this breaks down to `ysiw<CHAR>`. Citing tpope's README of [`surround.vim`](https://github.com/tpope/vim-surround): *It's easiest to explain with examples*. Press `ysiw*` (**y**ou **s**urround **i**nner **w**ord) at cursor position `[ ]`: 
 

@@ -3,6 +3,7 @@ locale = "en-US"
 title = "Steven Braun"
 theme = "hextra"
 enableRobotsTXT = true
+# enableInlineShortcodes= true
 
 # Hextra adds markdown/llms outputs by default; keep the site to plain HTML + RSS
 [outputs]

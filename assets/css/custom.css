@@ -34,3 +34,31 @@ figcaption { font-size: .9em; font-style: italic; }
     margin: 0 0 1em;
   }
 }
+
+.content .img-right-75 {
+  float: right;
+  width: 75%;
+  height: auto;
+  margin: 0 0 1em 1.5em;
+}
+@media (max-width: 960px) {
+  .content .img-right-75 {
+    float: none;
+    width: 100%;
+    margin: 0 0 1em;
+  }
+}
+
+.content .img-right-25 {
+  float: right;
+  width: 25%;
+  height: auto;
+  margin: 0 0 1em 1.5em;
+}
+@media (max-width: 320px) {
+  .content .img-right-25 {
+    float: none;
+    width: 100%;
+    margin: 0 0 1em;
+  }
+}
