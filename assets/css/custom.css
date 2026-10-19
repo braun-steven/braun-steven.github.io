@@ -19,3 +19,18 @@ figcaption { font-size: .9em; font-style: italic; }
 .content .post-list { list-style: none; margin-left: 0; padding-left: 0; }
 .content .post-list li { margin: .3em 0; }
 .post-date { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-variant-numeric: tabular-nums; opacity: .6; margin-right: .6em; }
+
+/* Image floated to the right; the following text wraps in the left half */
+.content .img-right-50 {
+  float: right;
+  width: 50%;
+  height: auto;
+  margin: 0 0 1em 1.5em;
+}
+@media (max-width: 640px) {
+  .content .img-right-50 {
+    float: none;
+    width: 100%;
+    margin: 0 0 1em;
+  }
+}
