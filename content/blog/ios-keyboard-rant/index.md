@@ -4,7 +4,7 @@ date: '2026-10-18T21:10:28+02:00'
 description: 'Rant about the iOS keyboard.'
 images:
 - header.webp
-draft: true
+draft: false
 ---
 
 <img class="img-right-50" src="header.webp" alt="iOS keyboard autocorrecting text to &quot;Whhats is weong wuth yiu?&quot;" style="border-radius: 1rem">
