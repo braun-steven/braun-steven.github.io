@@ -3,6 +3,9 @@
 /* A bit more breathing room above and below the content on every page.
    Margins leave each layout's own padding intact. */
 #content { margin-top: 1rem; margin-bottom: 1rem; }
+/* Tighten the post date → body gap (theme uses hx:mb-16 = 4rem) */
+#content > div[class~="hx:mb-16"] { margin-bottom: 1.0rem;}
+#content > div[class~="hx:mt-16"] { margin-top: 2.0rem; }
 .content .profile-pic {
   float: right;
   width: 160px;

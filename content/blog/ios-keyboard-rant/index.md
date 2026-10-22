@@ -17,7 +17,7 @@ Below I'll start a best of list of auto-corrected words which I will occasionall
 
 | written                     | auto-corrected                  | note                                                 |
 |-----------------------------|---------------------------------|------------------------------------------------------|
-| Who [is ...]                | **WHO** is ...                  | does not happen every time                           |
+| Who is ...                  | **WHO** is ...                  | does not happen every time                           |
 | ... foobar got stuck on ... | ... foobar got **S**tick on ... | that doesn't even make sense, and why capitalize it? |
 
 
