@@ -17,8 +17,8 @@ Below I'll start a best of list of auto-corrected words which I will occasionall
 
 | written                     | auto-corrected                  | note                                                 |
 |-----------------------------|---------------------------------|------------------------------------------------------|
-| Who is ...                  | **WHO** is ...                  | does not happen every time                           |
-| ... foobar got stuck on ... | ... foobar got **S**tick on ... | that doesn't even make sense, and why capitalize it? |
+| Who is ...                  | **WHO** is ...                  | happens sometimes; come on, which word is more likely? I'm not sure if I ever wrote WHO on my iOS keyboard (meaning the world health organizaion)                          |
+| ... something got stuck on ... | ... something got **S**tick on ... | that doesn't even make sense; also, why capitalize it? |
 
 
 Then there is the option to install a third party keyboard in iOS which to be honest is not an actual valid option. Third party keyboards in iOS do not have the same permissions/access to the system as the iOS keyboard has and as such, they often behave weird and are spontaneously replaced with the iOS keyboard again and are in some situations not even available at all (e.g. on the lockscreen, entering passwords or device passcodes).
